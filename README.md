@@ -1,6 +1,6 @@
 GraphQL Full Course - Novice to Expert
 https://www.youtube.com/watch?v=ed8SzALpx1Q
-[31:02] - GraphQL schema
+[48:20] - The resolve function
 
 1) $ mkdir server, then go into server directory
    $ npm init
