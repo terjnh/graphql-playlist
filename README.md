@@ -1,6 +1,6 @@
 GraphQL Full Course - Novice to Expert
 https://www.youtube.com/watch?v=ed8SzALpx1Q
-[48:20] - The resolve function
+[1:09:30] - Type Relations
 
 1) $ mkdir server, then go into server directory
    $ npm init
@@ -15,3 +15,8 @@ https://www.youtube.com/watch?v=ed8SzALpx1Q
 
 4) Install graphql in /server/
   $ npm install graphql express-graphql
+
+5) Install lodash
+  $ npm install lodash
+
+In app.js, set `graphiql: true` to use the graphiql UI
