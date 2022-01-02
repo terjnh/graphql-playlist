@@ -1,6 +1,10 @@
 GraphQL Full Course - Novice to Expert
 https://www.youtube.com/watch?v=ed8SzALpx1Q
-[1:09:30] - Type Relations
+[1:42:54]
+
+Stuck at adding data into MongoDB with mutations:
+Check out: https://www.youtube.com/watch?v=xUQ-hNRHCgs
+GraphQL API tutorial using Apollo Express and MongoDB
 
 1) $ mkdir server, then go into server directory
    $ npm init
@@ -20,3 +24,9 @@ https://www.youtube.com/watch?v=ed8SzALpx1Q
   $ npm install lodash
 
 In app.js, set `graphiql: true` to use the graphiql UI
+
+
+6) Install mongoose
+$ npm install mongoose
+MongoDB user: terry, pw: qwer
+MongoDB models are in /server/models/
