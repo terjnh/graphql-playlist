@@ -4,7 +4,14 @@ const typeDefs = gql`
     type Author {
         id: ID
         title: String
-        description: String
+        age: String
+    }
+
+    type Book {
+        id: ID
+        name: String
+        genre: String
+        authorId: String
     }
 
     type Query {
@@ -13,11 +20,18 @@ const typeDefs = gql`
 
     input AuthorInput {
         title: String
-        description: String
+        age: String
+    }
+
+    input BookInput {
+        name: String
+        genre: String
+        authorId: String
     }
 
     type Mutation {
         addAuthor(author: AuthorInput): Author
+        addBook(book: BookInput): Book
     }
 `;
 

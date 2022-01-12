@@ -23,7 +23,7 @@ async function startServer() {
         res.send("Hello from Express Apollo server...");
     });
 
-    await mongoose.connect('mongodb+srv://terry:qwer@cluster0.o7fvd.mongodb.net/GraphQL_Sample?retryWrites=true&w=majority', {
+    await mongoose.connect('', {
         useUnifiedTopology: true,
         useNewUrlParser: true
     })

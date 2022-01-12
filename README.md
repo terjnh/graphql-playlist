@@ -1,10 +1,9 @@
 GraphQL Full Course - Novice to Expert
 https://www.youtube.com/watch?v=ed8SzALpx1Q
-[1:42:54]
+[1:58:58] - Updating resolve functions
 
-Stuck at adding data into MongoDB with mutations:
-Check out: https://www.youtube.com/watch?v=xUQ-hNRHCgs
-GraphQL API tutorial using Apollo Express and MongoDB
+STATUS:
+- 'addBook' through GraphQL into MongoDB functionality
 
 1) $ mkdir server, then go into server directory
    $ npm init
